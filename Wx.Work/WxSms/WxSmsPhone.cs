@@ -23,6 +23,8 @@ namespace Wx.Work.WxSms
 
             //Logger.WriteTxtLog("短信记录：" + _val);
             //测试同步
+            //测试同步2
+
             try
             {
                 _result = BatchSaveSmsData(_val);
