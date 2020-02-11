@@ -1,1 +1,1 @@
-﻿<%@ WebHandler Language="C#" Class="Wx.Core.WxVoiceService" %>
+﻿<%@ WebHandler Language="C#" Class="Wx.Work.WxVoiceService" %>

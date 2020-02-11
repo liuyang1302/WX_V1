@@ -1,1 +1,1 @@
-﻿<%@ WebHandler Language="C#" Class="Wx.Core.WxQuesService" %>
+﻿<%@ WebHandler Language="C#" Class="Wx.Work.WxQuesService" %>

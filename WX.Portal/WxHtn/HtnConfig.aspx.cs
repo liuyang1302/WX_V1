@@ -7,6 +7,7 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 using Wx.Core;
+using Wx.Work;
 
 public partial class WxHtn_HtnConfig : System.Web.UI.Page
 {

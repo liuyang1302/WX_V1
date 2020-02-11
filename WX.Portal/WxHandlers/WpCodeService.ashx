@@ -1,1 +1,1 @@
-﻿<%@ WebHandler Language="C#" Class="Wx.Core.WpCodeService" %>
+﻿<%@ WebHandler Language="C#" Class="Wx.Work.WpCodeService" %>

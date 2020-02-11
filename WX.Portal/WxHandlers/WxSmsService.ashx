@@ -1,1 +1,1 @@
-﻿<%@ WebHandler Language="C#" Class="Wx.Core.WxSmsService" %>
+﻿<%@ WebHandler Language="C#" Class="Wx.Work.WxSmsService" %>

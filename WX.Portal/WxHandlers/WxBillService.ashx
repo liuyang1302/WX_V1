@@ -1,4 +1,4 @@
-﻿<%@ WebHandler Language="C#" Class="Wx.Core.WxBillService" %>
+﻿<%@ WebHandler Language="C#" Class="Wx.Work.WxBillService" %>
 
 
 

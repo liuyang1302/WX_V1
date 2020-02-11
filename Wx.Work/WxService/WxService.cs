@@ -18,36 +18,39 @@ namespace Wx.Work
             switch (context.Handler.ToString())
             {
                 //记帐
-                case "Wx.Core.WxBillService":
+                case "Wx.Work.WxBillService":
                     _factory = new WxBillFactory();
                     break;
                 //答题
-                case "Wx.Core.WxQuesService":
+                case "Wx.Work.WxQuesService":
                     _factory = new WxQuesFactory();
                     break;
                 //短信
-                case "Wx.Core.WxSmsService":
+                case "Wx.Work.WxSmsService":
                     _factory = new WxSmsFactory();
                     break;
                 //网票
-                case "Wx.Core.WpCodeService":
+                case "Wx.Work.WpCodeService":
                     _factory = new WpCodeFacory();
                     break;
                 //高血压数据同步
-                case "Wx.Core.HtnService":
+                case "Wx.Work.HtnService":
                     _factory = new HtnFacory();
                     break;
                 //高血压小程序
-                case "Wx.Core.HtnProService":
+                case "Wx.Work.HtnProService":
                     _factory = new HtnProFacory();
                     break;
                 //汐汐学习
-                case "Wx.Core.SchoolService":
-                case "Wx.Core.WxVoiceService":
+                case "Wx.Work.SchoolService":
+                case "Wx.Work.WxVoiceService":
                     _factory = new SchoolFactory();
                     break;
-                case "Wx.Core.ShareService":
+                case "Wx.Work.ShareService":
                     _factory = new ShareFactory();
+                    break;
+                case "Wx.Work.WxHisInfoService":
+                    _factory = new HisInfoFactory();
                     break;
 
             }
@@ -66,6 +69,8 @@ namespace Wx.Work
     public class SchoolService : WxService, IHttpHandler { }
     public class ShareService : WxService, IHttpHandler { }
     public class WxVoiceService : WxService, IHttpHandler { }
+    public class WxHisInfoService : WxService, IHttpHandler { }
 
-    
+
+
 }

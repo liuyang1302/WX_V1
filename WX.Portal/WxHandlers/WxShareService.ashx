@@ -1,1 +1,1 @@
-﻿<%@ WebHandler Language="C#" Class="Wx.Core.ShareService" %>
+﻿<%@ WebHandler Language="C#" Class="Wx.Work.ShareService" %>
