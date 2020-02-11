@@ -1,0 +1,46 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=0" />
+    <title>电子码</title>
+    <link rel="stylesheet" href="../WxAcss/weui.css" />
+    <link rel="stylesheet" href="../WxAcss/example.css" />
+    <script src="../WxAjs/zepto.min.js"></script>
+    <script src="../WxAjs/wpcodes.js"></script>
+</head>
+<body>
+    <div class="page js_show navbar">
+        <div class="page__bd" style="height: 100%;">
+            <div class="weui-tab">
+                <div class="weui-navbar">
+                    <div id="navbar1" class="weui-navbar__item weui-bar__item_on" style="color: green">可用</div>
+                    <div id="navbar2" class="weui-navbar__item" style="color: chocolate">有效</div>
+                    <div id="navbar3" class="weui-navbar__item" style="color: red">全部</div>
+                </div>
+                <div class="page__bd" style="margin-top: 30px; position: absolute; z-index: 500; width: 100%;">
+                    <div class="weui-cells weui-cells_form">
+                        <div class="weui-form-preview__ft">
+                            <label class="weui-label" style="color: blueviolet; margin-left: 15px; width: 100%;"></label>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="weui-tab__panel">
+                  
+                    <!-- 可用 -->
+                    <div id="panel1" class='weui-cells' style="margin-top: 100px;"></div>
+
+                    <!-- 有效  -->
+                    <div id="panel2" class='weui-cells' style="margin-top: 100px; display: none"></div>
+
+                    <!-- 全部  -->
+                    <div id="panel3" class='weui-cells' style="margin-top: 100px; display: none"></div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "WXPortal", "http://localhost/WXPortal", "{0908C440-7733-4B81-8E8B-BFBAE4216503}"
+	ProjectSection(WebsiteProperties) = preProject
+		UseIISExpress = "false"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5.1"
+		ProjectReferences = "{bddeb8f9-4e33-40d4-b97c-9c8bc6c3bb7b}|Wx.Inter.dll;{9c9c8977-6253-4079-aeda-b25226b5a7ac}|Wx.Core.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/WXPortal"
+		Debug.AspNetCompiler.PhysicalPath = "WX.Portal\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\WXPortal\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/WXPortal"
+		Release.AspNetCompiler.PhysicalPath = "WX.Portal\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\WXPortal\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		SlnRelativePath = "WX.Portal\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wx.Core", "Wx.Core\Wx.Core.csproj", "{9C9C8977-6253-4079-AEDA-B25226B5A7AC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wx.Inter", "Wx.Inter\Wx.Inter.csproj", "{BDDEB8F9-4E33-40D4-B97C-9C8BC6C3BB7B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wx.Work", "Wx.Work\Wx.Work.csproj", "{E7E5081E-FF0F-42F7-996C-D31464A1F84E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0908C440-7733-4B81-8E8B-BFBAE4216503}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0908C440-7733-4B81-8E8B-BFBAE4216503}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0908C440-7733-4B81-8E8B-BFBAE4216503}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{0908C440-7733-4B81-8E8B-BFBAE4216503}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{9C9C8977-6253-4079-AEDA-B25226B5A7AC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C9C8977-6253-4079-AEDA-B25226B5A7AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C9C8977-6253-4079-AEDA-B25226B5A7AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C9C8977-6253-4079-AEDA-B25226B5A7AC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BDDEB8F9-4E33-40D4-B97C-9C8BC6C3BB7B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BDDEB8F9-4E33-40D4-B97C-9C8BC6C3BB7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BDDEB8F9-4E33-40D4-B97C-9C8BC6C3BB7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BDDEB8F9-4E33-40D4-B97C-9C8BC6C3BB7B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E7E5081E-FF0F-42F7-996C-D31464A1F84E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7E5081E-FF0F-42F7-996C-D31464A1F84E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7E5081E-FF0F-42F7-996C-D31464A1F84E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7E5081E-FF0F-42F7-996C-D31464A1F84E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

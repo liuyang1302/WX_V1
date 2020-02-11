@@ -1,0 +1,76 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title></title>
+    <meta charset="utf-8" />
+    <script src="../WxAjs/zepto.min.js"></script>
+</head>
+<body>
+
+
+
+    <script type="text/javascript">
+
+        var curECode = "mCeqW8lHLSMkW4sDqMVufHN4f6yR4SjzgKD0Vd2Vbkg%3d";
+       
+        /*电子码绑定*/
+        function bindProduct(goflag) {
+            alert("aa");
+            var params = { "Category": 2, "Flag": curECode };
+            //loading.show();
+            $.post('channel.wangpiao.com/WeChat/api/Product/BindProduct', params,
+                function (result) {
+                    alert(result);
+                    //loading.hide();
+                    //if (null != result && result.IsSuccess) {
+                    //    if (100 == result.Flag) {
+                    //        /*未登录*/
+                    //        confirmGoLogin();
+                    //    }
+                    //    else if (null != result.Data) {
+                    //        if (0 == result.Data.Flag) {
+                    //            if (goflag == 0) {
+                    //                isbind = "2";
+                    //                alert("绑定成功");
+                    //            }
+                    //            else if (goflag == 1) {//buy
+                    //                RedirectNextPage('/WeChat/Cinema/List?aid=9206&ecode=mCeqW8lHLSMkW4sDqMVufHN4f6yR4SjzgKD0Vd2Vbkg%3d');
+                    //            }
+                    //        }
+                    //        else {
+                    //            if (result.Data.Flag == 1027) {
+                    //                isbind = "2";
+                    //            }
+                    //            if (result.Data.Flag == 1027 && goflag == 1) {//当前用户
+                    //                RedirectNextPage('/WeChat/Cinema/List?aid=9206&ecode=mCeqW8lHLSMkW4sDqMVufHN4f6yR4SjzgKD0Vd2Vbkg%3d');
+                    //                return;
+                    //            }
+                    //            if (null != result.Data.Message && '' != result.Data.Message) {
+                    //                alert(result.Data.Message);
+                    //            }
+                    //            else {
+                    //                alert("绑定失败");
+                    //            }
+                    //        }
+                    //    }
+                    //    else {
+                    //        alert("绑定失败");
+                    //    }
+                    //}
+                    //else {
+                    //    alert("绑定失败");
+                    //}
+                }
+            );
+            //    .error(function () {
+            //    //loading.hide();
+            //    alert("绑定失败");
+            //});
+        }
+        bindProduct(1);
+
+    </script>
+
+</body>
+</html>
