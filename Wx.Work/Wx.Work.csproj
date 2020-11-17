@@ -53,6 +53,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="School\SchoolData.cs" />
     <Compile Include="School\SchoolFactory.cs" />
+    <Compile Include="School\SchoolRead.cs" />
     <Compile Include="School\SchoolServiceInfo.cs" />
     <Compile Include="School\SchoolVoiceInfo.cs" />
     <Compile Include="Share\ShareData.cs" />

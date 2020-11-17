@@ -23,6 +23,10 @@ namespace Wx.Work
             {
                 _result = new SchoolVoiceInfo();
             }
+            else if (_type == "read") //阅读
+            {
+                _result = new SchoolRead();
+            }
             else
             {
                 _result = new SchoolServiceInfo();

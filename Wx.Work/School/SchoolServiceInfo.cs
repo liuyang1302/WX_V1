@@ -13,6 +13,7 @@ namespace Wx.Work.School
 {
     public class SchoolServiceInfo : WxServiceBase
     {
+        #region 成员
         private string _params;
         private string _typeid;
         private string _tindex;
@@ -23,7 +24,9 @@ namespace Wx.Work.School
         private static List<string> _lsz;
         private static List<string> _lyz;
         private static string _szjstr;
+        #endregion
 
+        #region 分类
         public override string GetResult(HttpContext context)
         {
             base.GetResult(context);
@@ -71,7 +74,9 @@ namespace Wx.Work.School
             }
             return _result;
         }
+        #endregion
 
+        #region 基础
         private string GetflList()
         {
             string _result = string.Empty;
@@ -326,5 +331,6 @@ namespace Wx.Work.School
 
             return _result;
         }
+        #endregion
     }
 }

@@ -1,0 +1,75 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=0" />
+    <title>书山有路勤为径</title>
+    <link rel="stylesheet" href="../WxAcss/myweui.css" />
+    <link rel="stylesheet" href="../WxAcss/example.css" />
+    <script src="../WxAjs/zepto.min.js"></script>
+    <script src="js/schoolread.js"></script>
+</head>
+<body>
+    
+    <div class="weui-form-preview">
+        <div class="weui-form-preview__hd" style="height: 30px">
+            <div class="weui-form-preview__item" style="margin-top: -5px">
+                <label id="lbnow" class="weui-form-preview__label" style="color: chocolate; font-size: 1.4em">2017年04月27日    汐汐学习</label>
+                <label id="lbname" class="weui-form-preview__value" style="color: blueviolet; font-size: 1.4em"></label>
+            </div>
+        </div>
+    </div>
+
+    <div class="weui-form-preview__ft">
+        <div class="weui-cell__bd">&nbsp;&nbsp;&nbsp;分类阅读</div>
+        <a class="weui-form-preview__btn weui-form-preview__btn_default" href="javascript:"></a>
+        <!--<label id="lberror1" style="color: red; font-size: 1.4em">0</label>
+        <label style="font-size: 1.4em">/</label>-->
+        <label id="ywhave" style="color: blue; margin-right: 10px;">按目录循环播放</label>
+    </div>
+
+    <div class="container" id="container" style="margin-top:100px; width:100%">
+        
+        <div class="page home js_show">
+            <div class="page__bd page__bd_spacing">
+                <ul>
+                    <li>
+                        <div class="weui-flex js_category">
+                            <p class="weui-flex__item">分类目录</p>
+                            <img src="Img/yy.png" />
+                        </div>
+                        <div class="page__category js_categoryInner" data-height="280">
+                            <div id="分类目录" class="weui-cells page__category-content">
+                               
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="weui-flex js_category">
+                            <p class="weui-flex__item">学期目录</p>
+                            <img src="Img/yy.png" />
+                        </div>
+                        <div class="page__category js_categoryInner">
+                            <div id="学期目录" class="weui-cells page__category-content">
+                                
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="weui-flex js_category">
+                            <p class="weui-flex__item">自定目录</p>
+                            <img src="Img/yy.png" />
+                        </div>
+                        <div class="page__category js_categoryInner" data-height="280">
+                            <div id="自定目录" class="weui-cells page__category-content">
+                                
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>

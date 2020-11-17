@@ -93,7 +93,7 @@
         $("#ywhave").html(_ywindex);
         $("#sxhave").html(_sxindex);
 
-        //转向连接
+        //转向连接 
         retoinfo();
     }
 
@@ -127,8 +127,14 @@
             else if (coursename == "复读机") {
                 _url = "SchoolVoice.aspx" + _params;
             }
+            else if (coursename == "日常阅读") {
+                _url = "SchoolRead.aspx" + _params;
+            }
             else if (coursetype == "语文1") {
                 _url = "SchoolYw.aspx" + _params;
+            }
+            else if (coursename == "九九乘法表") {
+                _url = "SchoolMult.aspx" + _params;
             }
             else {
                 _url = "SchoolSx.aspx" + _params;
